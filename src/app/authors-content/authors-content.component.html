@@ -1,0 +1,7 @@
+<h3>{{ authorsService.getAuthors().length }} author(s) found</h3>
+<ul>
+    <li *ngFor='let author of authorsService.getAuthors()'>
+        {{ author }}
+    </li>
+</ul>
+<button mat-button>Save</button>
